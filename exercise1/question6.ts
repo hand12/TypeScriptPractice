@@ -5,8 +5,8 @@ interface Religion {
 }
 
 class Religion implements Religion {
-    name: string;
-    founder: string;
-    sutra: string[];
+    name: string
+    founder: string
+    sutra: string[]
     constructor(name: string, founder: string, sutra: string[]) {};
 }
