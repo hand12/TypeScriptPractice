@@ -1,9 +1,8 @@
-interface Hero extends GuitarHero{
+interface Hero {
   name: string
 }
 
-interface GuitarHero {
+interface GuitarHero extends Hero {
   name: string
   guitar: string
 }
-
