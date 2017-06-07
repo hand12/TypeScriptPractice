@@ -3,6 +3,5 @@ interface Hero {
 }
 
 interface GuitarHero extends Hero {
-  name: string
   guitar: string
 }
